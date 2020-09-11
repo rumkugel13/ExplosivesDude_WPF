@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="ExplosivesDude.PlayerStats"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExplosivesDude"
+             mc:Ignorable="d" Width="52" Height="200" MinWidth="52" MinHeight="200" MaxWidth="52" MaxHeight="200" MouseEnter="UserControl_MouseEnter" MouseLeave="UserControl_MouseLeave" MouseUp="UserControl_MouseUp">
+    <Grid Background="DarkGray">
+        <Label x:Name="lb_status" Content="{Binding StateValue, FallbackValue=Absent}" Foreground="{Binding ForeColor, FallbackValue=Black}" Margin="0,170,0,0" VerticalAlignment="Top" ToolTip="PlayerState" HorizontalContentAlignment="Center"/>
+        <Image x:Name="im_player" Height="24" VerticalAlignment="Top" Source="Resources/player0.png" Margin="13,0,0,0" HorizontalAlignment="Left" Width="24"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="0,26,0,0" VerticalAlignment="Top" Width="24" Source="Resources/health.png" ToolTip="Health"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="0,74,0,0" VerticalAlignment="Top" Width="24" Source="Resources/range.png" ToolTip="Range"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="0,119,0,0" VerticalAlignment="Top" Width="24" Source="Resources/shoe_32.png" ToolTip="Speed"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="24,119,0,0" VerticalAlignment="Top" Width="24" Source="Resources/power.png" ToolTip="Power" Visibility="Collapsed"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="24,74,0,0" VerticalAlignment="Top" Width="24" Source="Resources/extraBomb.png" ToolTip="Amount"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="24,26,0,0" VerticalAlignment="Top" Width="24" Source="Resources/shield.png" ToolTip="Shield"/>
+        <Label Content="{Binding Health, FallbackValue=0}" HorizontalAlignment="Left" Margin="0,50,0,0" VerticalAlignment="Top" Width="24" Height="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0"/>
+        <Label Content="{Binding Speed, FallbackValue=0}" HorizontalAlignment="Left" Margin="0,143,0,0" VerticalAlignment="Top" Width="24" Height="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0"/>
+        <Label Content="{Binding BombRange, FallbackValue=0}" HorizontalAlignment="Left" Margin="0,98,0,0" VerticalAlignment="Top" Width="24" Height="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0"/>
+        <Label Content="{Binding BombAmount, FallbackValue=0}" HorizontalAlignment="Left" Margin="24,98,0,0" VerticalAlignment="Top" Width="24" Height="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0"/>
+        <Label Content="{Binding BombPower, FallbackValue=0}" HorizontalAlignment="Left" Margin="24,143,0,0" VerticalAlignment="Top" Width="24" Height="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0" Visibility="Collapsed"/>
+        <Label Content="{Binding Shield, FallbackValue=0}" HorizontalAlignment="Left" Margin="24,50,0,0" VerticalAlignment="Top" Width="24" Height="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0"/>
+    </Grid>
+</UserControl>

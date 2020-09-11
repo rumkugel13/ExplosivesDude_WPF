@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Bomberman.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerMain" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rumkugel13.ddns.info</Value>
+    </Setting>
+    <Setting Name="ServerPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">24816</Value>
+    </Setting>
+    <Setting Name="ServerBackup" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rumkugel13.ddns.ms</Value>
+    </Setting>
+    <Setting Name="ServerLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

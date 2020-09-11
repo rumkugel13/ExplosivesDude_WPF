@@ -1,0 +1,17 @@
+kommandos:
+
+addexplosive	cmd	plid	x	y	range	power
+activateremote	cmd	x	y
+trigger		cmd	plid	
+move		cmd	plid	x	y	newx	newy
+itempickup	cmd	plid	x	y
+blasthit	cmd	plid	damage
+changestate	cmd	plid	state
+changeid	cmd	old	new	(clid4)
+
+addplayer	cmd	plid	clid4
+addboxes	cmd	seed4
+changeseed	cmd	seed4
+newclient	cmd	clid4
+removeclient	cmd	clid4
+playercount	cmd	count
