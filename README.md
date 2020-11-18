@@ -4,6 +4,19 @@
 
 ## About
 A remake of the classic bomberman game, made in WPF.
+DISCLAIMER: This project is still WIP
+
+## Features
+- Singleplayer mode
+- Online multiplayer
+- Stats for health, shield, bomb range, bomb amount, speed
+- Remote triggers (used to be C4)
+- High bomb power can destroy walls (used to be Dynamite)
+- Players can select starting position
+
+## Issues
+- Multiplayer doesn't sync correctly
+- Others (see ExplosivesDude/README.cs)
 
 # Build Instructions
 
