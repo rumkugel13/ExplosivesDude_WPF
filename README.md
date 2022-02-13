@@ -3,7 +3,7 @@
 ![Screenshot](https://rumkugel13.github.io/content/images/explosivesdude_wpf_screenshot.png)
 
 ## About
-A remake of the classic bomberman game, made in WPF.
+A remake of the classic [bomberman](https://en.wikipedia.org/wiki/Bomberman) game, made in WPF.
 DISCLAIMER: This project is still WIP
 
 ## Features
